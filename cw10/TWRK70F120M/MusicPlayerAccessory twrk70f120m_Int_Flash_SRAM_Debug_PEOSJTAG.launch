@@ -34,8 +34,8 @@
 <stringAttribute key="com.freescale.cdt.debug.cw.CW_SHADOWED_PREF.Embedded Initialization.simulator" value=""/>
 <booleanAttribute key="com.freescale.cdt.debug.cw.CW_SHADOWED_PREF.Embedded Initialization.smp" value="false"/>
 <stringAttribute key="com.freescale.cdt.debug.cw.CW_SHADOWED_PREF.Embedded Initialization.systemType" value="com.freescale.cw.system.kinetis.K70F.K70FN1M0"/>
-<booleanAttribute key="com.freescale.cdt.debug.cw.CW_SHADOWED_PREF.Embedded Initialization.useInitFile" value="false"/>
-<booleanAttribute key="com.freescale.cdt.debug.cw.CW_SHADOWED_PREF.Embedded Initialization.useMemoryConfigFile" value="false"/>
+<booleanAttribute key="com.freescale.cdt.debug.cw.CW_SHADOWED_PREF.Embedded Initialization.useInitFile" value="true"/>
+<booleanAttribute key="com.freescale.cdt.debug.cw.CW_SHADOWED_PREF.Embedded Initialization.useMemoryConfigFile" value="true"/>
 <listAttribute key="com.freescale.cdt.debug.cw.CoreNameList">
 <listEntry value="K70FN1M0#0"/>
 </listAttribute>
@@ -108,11 +108,11 @@
 <booleanAttribute key="com.freescale.cdt.debug.cw.useGateway" value="false"/>
 <booleanAttribute key="com.freescale.cdt.debug.cw.useHSSTIO" value="false"/>
 <listAttribute key="com.freescale.cdt.debug.cw.useInitPathList">
-<listEntry value="false"/>
+<listEntry value="true"/>
 </listAttribute>
 <booleanAttribute key="com.freescale.cdt.debug.cw.useMacAddress" value="false"/>
 <listAttribute key="com.freescale.cdt.debug.cw.useMemConfigPathList">
-<listEntry value="false"/>
+<listEntry value="true"/>
 </listAttribute>
 <booleanAttribute key="com.freescale.cdt.debug.cw.useNetworkTransferIO" value="false"/>
 <booleanAttribute key="com.freescale.cdt.debug.cw.useSerialTransferIO" value="false"/>
@@ -182,7 +182,7 @@
 <stringAttribute key="com.pemicro.mcu.debug.connections.pne.arm.STARTUP_USE_SWD" value="0"/>
 <stringAttribute key="com.pemicro.mcu.debug.connections.pne.arm.STARTUP_USE_TRACELINK_RELAYS" value="1"/>
 <stringAttribute key="com.pemicro.mcu.debug.connections.pne.arm.STARTUP_interface_selection" value="1"/>
-<stringAttribute key="com.pemicro.mcu.debug.connections.pne.arm.UUID" value="756ba44c-4c24-4405-aee0-709d37a447e5"/>
+<stringAttribute key="com.pemicro.mcu.debug.connections.pne.arm.UUID" value="45b10851-106a-4b4b-890d-acfd809f1d43"/>
 <intAttribute key="org.eclipse.cdt.launch.ATTR_BUILD_BEFORE_LAUNCH_ATTR" value="2"/>
 <stringAttribute key="org.eclipse.cdt.launch.COREFILE_PATH" value=""/>
 <stringAttribute key="org.eclipse.cdt.launch.DEBUGGER_ID" value="com.freescale.cdt.debug.cw.arm.ArmDebugger"/>
@@ -193,7 +193,7 @@
 <booleanAttribute key="org.eclipse.cdt.launch.ENABLE_REGISTER_BOOKKEEPING" value="false"/>
 <booleanAttribute key="org.eclipse.cdt.launch.ENABLE_RESTORE_WATCHPOINTS" value="true"/>
 <booleanAttribute key="org.eclipse.cdt.launch.ENABLE_VARIABLE_BOOKKEEPING" value="false"/>
-<stringAttribute key="org.eclipse.cdt.launch.FORMAT" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&lt;contentList&gt;&lt;content id=&quot;iso_flag--(format)&quot; val=&quot;1&quot;/&gt;&lt;content id=&quot;[63]-buffer--(format)&quot; val=&quot;4&quot;/&gt;&lt;content id=&quot;[62]-buffer--(format)&quot; val=&quot;4&quot;/&gt;&lt;content id=&quot;[54]-buffer--(format)&quot; val=&quot;4&quot;/&gt;&lt;content id=&quot;[53]-buffer--(format)&quot; val=&quot;4&quot;/&gt;&lt;content id=&quot;[52]-buffer--(format)&quot; val=&quot;4&quot;/&gt;&lt;content id=&quot;[51]-buffer--(format)&quot; val=&quot;4&quot;/&gt;&lt;content id=&quot;[49]-buffer--(format)&quot; val=&quot;4&quot;/&gt;&lt;content id=&quot;[2]-buffer--(format)&quot; val=&quot;4&quot;/&gt;&lt;content id=&quot;[1]-buffer--(format)&quot; val=&quot;4&quot;/&gt;&lt;content id=&quot;[0]-buffer--(format)&quot; val=&quot;1&quot;/&gt;&lt;content id=&quot;WINDEX-dev_req-usb_device_hid_regist-(cast)&quot; val=&quot;UINT16&quot;/&gt;&lt;content id=&quot;accIs--(format)&quot; val=&quot;4&quot;/&gt;&lt;content id=&quot;[62]-hid_description--(format)&quot; val=&quot;4&quot;/&gt;&lt;content id=&quot;*TX_BUFFER-TX_BUFFER-G-tr-usb_device_try_accessory-(format)&quot; val=&quot;1&quot;/&gt;&lt;content id=&quot;[14]-hid_description-usb_device_try_accessory-(format)&quot; val=&quot;4&quot;/&gt;&lt;content id=&quot;BREQUEST-dev_req-usb_device_hid_send_event-(format)&quot; val=&quot;1&quot;/&gt;&lt;/contentList&gt;"/>
+<stringAttribute key="org.eclipse.cdt.launch.FORMAT" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&lt;contentList&gt;&lt;content id=&quot;BREQUEST-dev_req-usb_device_hid_send_event-(format)&quot; val=&quot;1&quot;/&gt;&lt;content id=&quot;[14]-hid_description-usb_device_try_accessory-(format)&quot; val=&quot;4&quot;/&gt;&lt;content id=&quot;*TX_BUFFER-TX_BUFFER-G-tr-usb_device_try_accessory-(format)&quot; val=&quot;1&quot;/&gt;&lt;content id=&quot;[62]-hid_description--(format)&quot; val=&quot;4&quot;/&gt;&lt;content id=&quot;accIs--(format)&quot; val=&quot;4&quot;/&gt;&lt;content id=&quot;WINDEX-dev_req-usb_device_hid_regist-(cast)&quot; val=&quot;UINT16&quot;/&gt;&lt;content id=&quot;[0]-buffer--(format)&quot; val=&quot;1&quot;/&gt;&lt;content id=&quot;[1]-buffer--(format)&quot; val=&quot;4&quot;/&gt;&lt;content id=&quot;[2]-buffer--(format)&quot; val=&quot;4&quot;/&gt;&lt;content id=&quot;[49]-buffer--(format)&quot; val=&quot;4&quot;/&gt;&lt;content id=&quot;[51]-buffer--(format)&quot; val=&quot;4&quot;/&gt;&lt;content id=&quot;[52]-buffer--(format)&quot; val=&quot;4&quot;/&gt;&lt;content id=&quot;[53]-buffer--(format)&quot; val=&quot;4&quot;/&gt;&lt;content id=&quot;[54]-buffer--(format)&quot; val=&quot;4&quot;/&gt;&lt;content id=&quot;[62]-buffer--(format)&quot; val=&quot;4&quot;/&gt;&lt;content id=&quot;[63]-buffer--(format)&quot; val=&quot;4&quot;/&gt;&lt;content id=&quot;iso_flag--(format)&quot; val=&quot;1&quot;/&gt;&lt;/contentList&gt;"/>
 <stringAttribute key="org.eclipse.cdt.launch.GLOBAL_VARIABLES" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;globalVariableList&gt;&#13;&#10;&lt;globalVariable name=&quot;_mqx_kernel_data&quot; path=&quot;&quot;/&gt;&#13;&#10;&lt;globalVariable name=&quot;_mqx_kernel_data&quot; path=&quot;&quot;/&gt;&#13;&#10;&lt;globalVariable name=&quot;_mqx_kernel_data&quot; path=&quot;&quot;/&gt;&#13;&#10;&lt;globalVariable name=&quot;_mqx_kernel_data&quot; path=&quot;&quot;/&gt;&#13;&#10;&lt;/globalVariableList&gt;&#13;&#10;"/>
 <stringAttribute key="org.eclipse.cdt.launch.MEMORY_BLOCKS" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;memoryBlockExpressionList/&gt;&#13;&#10;"/>
 <stringAttribute key="org.eclipse.cdt.launch.PROGRAM_NAME" value="twrk70f120m_Int_Flash_SramData_Debug/MusicPlayerAccessory.afx"/>
